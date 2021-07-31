@@ -14,13 +14,13 @@ body {
   left: 0px;
   width: 300px;
   height: 100%;bottom: 0px;
-  
+  border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
 }
 
 header {
   color: #808183;
-  margin: 1px;bottom: 0px;background-image: linear-gradient(to right top, #131314, #1b1c1d, #232626, #2d302e, #383936);border-radius: 8px;
+  margin: 10px;background-image: linear-gradient(to right top, #131314, #1b1c1d, #232626, #2d302e, #383936);border-radius: 8px;
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
@@ -39,12 +39,12 @@ header:hover{
   height: 88%;
   padding: 0;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: hidden;background-image: linear-gradient(to right top, #515155, #424648, #363a3b, #2b2e2d, #222321);
 }
 
 #navbar li {
   color: #63EB2D;
-  border-top: 0px solid;
+  border-top: 1px solid;
   list-style: none;box-shadow: 5px 10px 18px #888888;
   position: relative;
   width: 100%;
@@ -57,7 +57,7 @@ header:hover{
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: #33F276;
   text-decoration: none;
   cursor: pointer;
 }
@@ -103,7 +103,7 @@ code {
   }
 
   #navbar {
-    background-color: white;
+    background-image: linear-gradient(to right top, #515155, #424648, #363a3b, #2b2e2d, #222321);
     position: absolute;
     top: 0;
     padding: 0;
